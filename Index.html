@@ -240,7 +240,7 @@
           ></iframe>
         </section>
       </section>
-            <a
+      <a
         class="fixed-link-circle left"
         data-bs-toggle="modal"
         data-bs-target="#formModal"
@@ -266,7 +266,7 @@
                 aria-label="Close"
               ></button>
             </div>
-        <div class="modal-body">
+            <div class="modal-body">
               <form action="#" method="GET" class="contact-form">
                 <div class="mb-3">
                   <label for="contact-name" class="form-label">Full Name</label>
@@ -310,6 +310,34 @@
                     required
                   ></textarea>
                 </div>
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="data-protection-field"
+                    name="accept-toc"
+                    required
+                  />
+                  <label class="form-check-label" for="data-protection-field"
+                    >I accept the data protection guidelines.</label
+                  >
+                </div>
+                <div class="mb-3 form-check">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="fixed-link-circle right" href="#">↑</a>
     </main>
     <footer></footer>
     <script
