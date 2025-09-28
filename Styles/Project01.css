@@ -117,3 +117,26 @@ body {
 .fixed-link-circle.left {
   left: 2rem;
 }
+
+/* Media screen size */
+@media screen and (min-width: 320px) {
+  .fixed-link-circle.right {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lincoln-park-map {
+    height: 450px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .lincoln-park-map {
+    height: 675px;
+  }
+
+  .lincoln-park-map {
+    height: 72px;
+  }
+}
