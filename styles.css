@@ -78,8 +78,13 @@ body {
 }
 
 /* Photos */
-/* Need to add some styling to allow the pictures to all fit correctly.
-/* To stay the same size without losing the affect on the webpage,
+/* Need to add some styling to allow the pictures to all fit correctly.*/
+/* To stay the same size without losing the affect on the webpage.*/
+/*
+.carousel-item {
+  display: block;
+}
+*/
 
 /* Map */
 .lincoln-park-map {
